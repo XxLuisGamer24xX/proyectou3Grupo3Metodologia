@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar sesión</title>
-    <link rel="stylesheet" href=""> <!-- Selena aqui pon direccion css-->
+    <link rel="stylesheet" href="estilo2.css">
 </head>
 <body>
     <div class="container">
         <form class="login-form">
             <h1>Iniciar sesión</h1>
             <label for="username">Usuario</label>
-            <input type="text" id="username" name="username" required>            
+            <input type="text" id="username" name="username" required>
+            
             <label for="password">Contraseña</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Iniciar sesión</button>
+            
+            <button type="submit" class="login-button" id="loginButton">Iniciar sesión</button>
+            <button type="button" class="register-button">Registro</button>
         </form>
     </div>
+    
+    <script src="login.js"></script> <!-- Incluye el archivo JavaScript externo -->
 </body>
 </html>

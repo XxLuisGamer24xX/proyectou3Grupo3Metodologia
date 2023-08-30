@@ -1,0 +1,76 @@
+body{
+  background-color: #ccc;
+  margin: 0px;
+  margin-top: 0px;
+}
+header{
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+nav.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav.menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  padding: 5px;
+}
+
+nav.menu ul li a:hover {
+  background-color: #ccc;
+}
+.Contenedor1 h1{
+  font-family: 'Pacifico', cursive;
+}
+.contenidoProyecto {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: 100vh;
+}
+.herramientas {
+  display: grid;
+  background-color: white;
+  grid-template-rows: repeat(9 1fr);
+}
+
+.mesaTrabajo {
+  background-color: #ccc;
+}
+.contenidoProyecto div .herramienta1 {
+  background-color: red;
+}
+.contenidoProyecto div .herramienta2{
+  background-color: yellow;
+}
+.contenidoProyecto div .herramienta3{
+  background-color: rgb(61, 61, 38);
+}
+.contenidoProyecto div .herramienta4{
+  background-color: rgb(128, 128, 117);
+}
+.contenidoProyecto div .herramienta5{
+  background-color: rgb(124, 70, 185);
+}
+.contenidoProyecto div .herramienta6{
+  background-color: rgb(116, 155, 187);
+}
+.contenidoProyecto div .herramienta7{
+  background-color: rgb(206, 99, 57);
+}
+.contenidoProyecto div .herramienta8{
+  background-color: rgb(10, 25, 37);
+}
+.contenidoProyecto div .herramienta9{
+  background-color: rgb(167, 51, 147);
+}
